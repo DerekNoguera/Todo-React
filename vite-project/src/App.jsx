@@ -1,6 +1,7 @@
 
 import './App.css'
-import Todo from './pages/todo'
+import Rutas from './router/rutas'
+
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <Todo/>
+       <Rutas/>
       </div>
     </>
   )
